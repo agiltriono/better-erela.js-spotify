@@ -33,7 +33,7 @@
     "name": "agiltriono"
   },
   "repository": {
-    "url": "https://github.com/agiltriono/better-erela.js-spotify.git"
+    "url": "git+https://github.com/agiltriono/better-erela.js-deezer.git"
   },
   "homepage": "https://www.agieltriono.my.id",
   "scripts": {

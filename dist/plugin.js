@@ -42,7 +42,7 @@ const check = (options) => {
         throw new TypeError("Spotify option \"maxCacheLifeTime\" must be a number.");
     }
 };
-class Spotify extends erela_js_1.Plugin {
+class Spotify extends Plugin {
     constructor(options) {
         super();
         this.resolver = new resolver_1.default(this);

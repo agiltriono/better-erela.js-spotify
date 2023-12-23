@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Spotify = void 0;
-const erela_js_1 = require("erela.js");
+const { Manager, Plugin, TrackUtils } = require("erela.js");
 const resolver_1 = __importDefault(require("./resolver"));
 const check = (options) => {
     if (typeof options?.convertUnresolved !== "undefined" &&

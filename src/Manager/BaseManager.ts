@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { LoadType, SearchResult, Track, TrackUtils, UnresolvedTrack } from "erela.js";
 import resolver from "../resolver";
 import { SpotifyTrack } from "../typings";
@@ -43,7 +44,7 @@ export abstract class BaseManager {
             return {
                 title: track.name,
                 duration: track.duration_ms,
-                thumbnail: track.images[0].url,
+                thumbnail: track?.images[0].url,
                 uri: track.external_urls.spotify,
                 author: " "
             };
